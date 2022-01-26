@@ -4,7 +4,7 @@
   "description": "",
   "main": "read.js",
   "scripts": {
-    "dev": "node read.js",
+    "meta": "node src/read.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
