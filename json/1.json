@@ -1,0 +1,51 @@
+{
+  "name": "Slavette #1",
+  "description": "333 Slavettes are squatting forever on chain.",
+  "image": "gopnikz.info/1.png",
+  "dna": "081376d93afe5fee571d2d852e6efad646edad54",
+  "edition": 1,
+  "date": 1642759605268,
+  "attributes": [
+    {
+      "trait_type": "Radioactive 1",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Naked Body"
+    },
+    {
+      "trait_type": "Bra",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Panties",
+      "value": "Valentines"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Evil Green"
+    },
+    {
+      "trait_type": "Hairstyle 1",
+      "value": "Long Blonde"
+    },
+    {
+      "trait_type": "Pants",
+      "value": "Pants Red Dot"
+    },
+    {
+      "trait_type": "Top",
+      "value": "Gray Tee"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Screaming"
+    },
+    {
+      "trait_type": "Hands",
+      "value": "Counter Knife"
+    }
+  ],
+  "compiler": "Gopnikz by Babushka"
+}

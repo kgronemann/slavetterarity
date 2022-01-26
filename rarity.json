@@ -1,0 +1,703 @@
+{
+
+    "Radioactive 1":[
+      {
+        "trait": "Golden",
+        "weight": "10",   
+        "occurrence": "0 in 333 editions (0.00 %)"
+      },
+      {
+        "trait": "Green",
+        "weight": "60",
+        "occurrence": "1 in 333 editions (0.30 %)"
+      },
+      {
+        "trait": "Pink",
+        "weight": "40",
+        "occurrence": "1 in 333 editions (0.30 %)"
+      }
+    ],
+
+    "Base":[
+      {
+        "trait": "Naked Body",
+        "weight": "100",
+        "occurrence": "333 in 333 editions (100.00 %)"
+      }
+    ],
+
+    "Bra":[
+      {
+        "trait": "Black",
+        "weight": "100",
+        "occurrence": "147 in 333 editions (44.14 %)"
+      },
+      {
+        "trait": "Gopnik",
+        "weight": "40",
+        "occurrence": "74 in 333 editions (22.22 %)"
+      },
+      {
+        "trait": "Valentines",
+        "weight": "60",
+        "occurrence": "112 in 333 editions (33.63 %)"
+      }
+    ],
+
+    "Panties":[
+      {
+        "trait": "Black",
+        "weight": "100",
+        "occurrence": "165 in 333 editions (49.55 %)"
+      },
+      {
+        "trait": "Boxer Shorts",
+        "weight": "40",
+        "occurrence": "80 in 333 editions (24.02 %)"
+      },
+      {
+        "trait": "Valentines",
+        "weight": "60",
+        "occurrence": "88 in 333 editions (26.43 %)"
+      }
+    ],
+    "Eyes":[
+      {
+        "trait": "Bored Blue",
+        "weight": "100",
+        "occurrence": "45 in 333 editions (13.51 %)"
+      },
+      {
+        "trait": "Bored Green",
+        "weight": "100",
+        "occurrence": "51 in 333 editions (15.32 %)"
+      },
+      {
+        "trait": "Evil Green",
+        "weight": "100",
+        "occurrence": "56 in 333 editions (16.82 %)"
+      },
+      {
+        "trait": "Evil Red",
+        "weight": "40",
+        "occurrence": "23 in 333 editions (6.91 %)"
+      },
+      {
+        "trait": "Eyebags Red",
+        "weight": "10",
+        "occurrence": "6 in 333 editions (1.80 %)"
+      },
+      {
+        "trait": "Eyepunch Red",
+        "weight": "10",
+        "occurrence": "4 in 333 editions (1.20 %)"
+      },
+      {
+        "trait": "Scar Red",
+        "weight": "10",
+        "occurrence": "6 in 333 editions (1.80 %)"
+      },
+      {
+        "trait": "Wow Blue",
+        "weight": "100",
+        "occurrence": "45 in 333 editions (13.51 %)"
+      },
+      {
+        "trait": "Wow Green",
+        "weight": "100",
+        "occurrence": "62 in 333 editions (18.62 %)"
+      },
+      {
+        "trait": "Wow Yellow",
+        "weight": "60",
+        "occurrence": "35 in 333 editions (10.51 %)"
+      }
+    ],
+    "Hairstyle 1":[
+      {
+        "trait": "Long Blonde",
+        "weight": "100",
+        "occurrence": "1 in 333 editions (0.30 %)"
+      },
+      {
+        "trait": "Long Blue",
+        "weight": "40",
+        "occurrence": "1 in 333 editions (0.30 %)"
+      },
+      {
+        "trait": "Long Red",
+        "weight": "60",
+        "occurrence": "0 in 333 editions (0.00 %)"
+      }
+    ],
+    "Pants":[
+      {
+        "trait": "Empty",
+        "weight": "10",
+        "occurrence": "3 in 333 editions (0.90 %)"
+      },
+      {
+        "trait": "Pants Black Dot",
+        "weight": "60",
+        "occurrence": "29 in 333 editions (8.71 %)"
+      },
+      {
+        "trait": "Pants Black",
+        "weight": "100",
+        "occurrence": "36 in 333 editions (10.81 %)"
+      },
+      {
+        "trait": "Pants Blue Dot",
+        "weight": "40",
+        "occurrence": "17 in 333 editions (5.11 %)"
+      },
+      {
+        "trait": "Pants Blue",
+        "weight": "60",
+        "occurrence": "25 in 333 editions (7.51 %)"
+      },
+      {
+        "trait": "Pants Cheetah",
+        "weight": "10",
+        "occurrence": "1 in 333 editions (0.30 %)"
+      },
+      {
+        "trait": "Pants Flames",
+        "weight": "10",
+        "occurrence": "3 in 333 editions (0.90 %)"
+      },
+      {
+        "trait": "Pants Green Dot",
+        "weight": "40",
+        "occurrence": "29 in 333 editions (8.71 %)"
+      },
+      {
+        "trait": "Pants Green",
+        "weight": "60",
+        "occurrence": "30 in 333 editions (9.01 %)"
+      },
+      {
+        "trait": "Pants Orange Dot",
+        "weight": "40",
+        "occurrence": "21 in 333 editions (6.31 %)"
+      },
+      {
+        "trait": "Pants Orange",
+        "weight": "60",
+        "occurrence": "26 in 333 editions (7.81 %)"
+      },
+      {
+        "trait": "Pants Pink Dot",
+        "weight": "40",
+        "occurrence": "19 in 333 editions (5.71 %)"
+      },
+      {
+        "trait": "Pants Pink",
+        "weight": "60",
+        "occurrence": "15 in 333 editions (4.50 %)"
+      },
+      {
+        "trait": "Pants Red Dot",
+        "weight": "40",
+        "occurrence": "22 in 333 editions (6.61 %)"
+      },
+      {
+        "trait": "Pants Red",
+        "weight": "60",
+        "occurrence": "23 in 333 editions (6.91 %)"
+      },
+      {
+        "trait": "Pants Yellow Dot",
+        "weight": "40",
+        "occurrence": "18 in 333 editions (5.41 %)"
+      },
+      {
+        "trait": "Pants Yellow",
+        "weight": "40",
+        "occurrence": "14 in 333 editions (4.20 %)"
+      },
+      {
+        "trait": "Pants Zebra",
+        "weight": "10",
+        "occurrence": "2 in 333 editions (0.60 %)"
+      }
+    ],
+    "Top":[
+      {
+        "trait": "Blood Stain",
+        "weight": "40",
+        "occurrence": "10 in 333 editions (3.00 %)"
+      },
+      {
+        "trait": "Cross",
+        "weight": "40",
+        "occurrence": "10 in 333 editions (3.00 %)"
+      },
+      {
+        "trait": "Empty",
+        "weight": "10",
+        "occurrence": "2 in 333 editions (0.60 %)"
+      },
+      {
+        "trait": "Fur Coat",
+        "weight": "60",
+        "occurrence": "16 in 333 editions (4.80 %)"
+      },
+      {
+        "trait": "Gray Tee",
+        "weight": "40",
+        "occurrence": "17 in 333 editions (5.11 %)"
+      },
+      {
+        "trait": "Hoodie Black Dot",
+        "weight": "60",
+        "occurrence": "11 in 333 editions (3.30 %)"
+      },
+      {
+        "trait": "Hoodie Black",
+        "weight": "100",
+        "occurrence": "19 in 333 editions (5.71 %)"
+      },
+      {
+        "trait": "Hoodie Blue Dot",
+        "weight": "60",
+        "occurrence": "7 in 333 editions (2.10 %)"
+      },
+      {
+        "trait": "Hoodie Blue",
+        "weight": "100",
+        "occurrence": "19 in 333 editions (5.71 %)"
+      },
+      {
+        "trait": "Hoodie Cheetah",
+        "weight": "10",
+        "occurrence": "3 in 333 editions (0.90 %)"
+      },
+      {
+        "trait": "Hoodie Flames",
+        "weight": "10",
+        "occurrence": "1 in 333 editions (0.30 %)"
+      },
+      {
+        "trait": "Hoodie Green Dot",
+        "weight": "60",
+        "occurrence": "13 in 333 editions (3.90 %)"
+      },
+      {
+        "trait": "Hoodie Green",
+        "weight": "100",
+        "occurrence": "22 in 333 editions (6.61 %)"
+      },
+      {
+        "trait": "Hoodie Orange Dot",
+        "weight": "60",
+        "occurrence": "15 in 333 editions (4.50 %)"
+      },
+      {
+        "trait": "Hoodie Orange",
+        "weight": "100",
+        "occurrence": "22 in 333 editions (6.61 %)"
+      },
+      {
+        "trait": "Hoodie Pink Dot",
+        "weight": "60",
+        "occurrence": "17 in 333 editions (5.11 %)"
+      },
+      {
+        "trait": "Hoodie Pink",
+        "weight": "100",
+        "occurrence": "20 in 333 editions (6.01 %)"
+      },
+      {
+        "trait": "Hoodie Red Dot",
+        "weight": "60",
+        "occurrence": "17 in 333 editions (5.11 %)"
+      },
+      {
+        "trait": "Hoodie Red",
+        "weight": "100",
+        "occurrence": "23 in 333 editions (6.91 %)"
+      },
+      {
+        "trait": "Hoodie Yellow Dot",
+        "weight": "60",
+        "occurrence": "9 in 333 editions (2.70 %)"
+      },
+      {
+        "trait": "Hoodie Yellow",
+        "weight": "100",
+        "occurrence": "23 in 333 editions (6.91 %)"
+      },
+      {
+        "trait": "Hoodie Zebra",
+        "weight": "40",
+        "occurrence": "9 in 333 editions (2.70 %)"
+      },
+      {
+        "trait": "Mustard Stain",
+        "weight": "40",
+        "occurrence": "6 in 333 editions (1.80 %)"
+      },
+      {
+        "trait": "Pink Tee",
+        "weight": "40",
+        "occurrence": "9 in 333 editions (2.70 %)"
+      },
+      {
+        "trait": "White Tee",
+        "weight": "60",
+        "occurrence": "13 in 333 editions (3.90 %)"
+      }
+    ],
+    "Mouth":[
+      {
+        "trait": "Bandage",
+        "weight": "40",
+        "occurrence": "19 in 333 editions (5.71 %)"
+      },
+      {
+        "trait": "Burgundy Lipstick",
+        "weight": "100",
+        "occurrence": "29 in 333 editions (8.71 %)"
+      },
+      {
+        "trait": "Ciggie",
+        "weight": "60",
+        "occurrence": "15 in 333 editions (4.50 %)"
+      },
+      {
+        "trait": "Deep Orange Lipstick",
+        "weight": "100",
+        "occurrence": "41 in 333 editions (12.31 %)"
+      },
+      {
+        "trait": "Deep Red Lipstick",
+        "weight": "100",
+        "occurrence": "28 in 333 editions (8.41 %)"
+      },
+      {
+        "trait": "Evil Smile",
+        "weight": "40",
+        "occurrence": "13 in 333 editions (3.90 %)"
+      },
+      {
+        "trait": "Fucshia Lipstick",
+        "weight": "100",
+        "occurrence": "41 in 333 editions (12.31 %)"
+      },
+      {
+        "trait": "Joint",
+        "weight": "40",
+        "occurrence": "11 in 333 editions (3.30 %)"
+      },
+      {
+        "trait": "Kawaii",
+        "weight": "10",
+        "occurrence": "4 in 333 editions (1.20 %)"
+      },
+      {
+        "trait": "Pink Lipstick",
+        "weight": "100",
+        "occurrence": "43 in 333 editions (12.91 %)"
+      },
+      {
+        "trait": "Pissed Off",
+        "weight": "40",
+        "occurrence": "11 in 333 editions (3.30 %)"
+      },
+      {
+        "trait": "Red Lipstick",
+        "weight": "60",
+        "occurrence": "20 in 333 editions (6.01 %)"
+      },
+      {
+        "trait": "Screaming",
+        "weight": "40",
+        "occurrence": "19 in 333 editions (5.71 %)"
+      },
+      {
+        "trait": "Smile",
+        "weight": "100",
+        "occurrence": "39 in 333 editions (11.71 %)"
+      }
+    ],
+    "Hands":[
+      {
+        "trait": "Bat",
+        "weight": "100",
+        "occurrence": "44 in 333 editions (13.21 %)"
+      },
+      {
+        "trait": "Broken Bottle",
+        "weight": "40",
+        "occurrence": "12 in 333 editions (3.60 %)"
+      },
+      {
+        "trait": "Counter Knife Pink Blue",
+        "weight": "10",
+        "occurrence": "2 in 333 editions (0.60 %)"
+      },
+      {
+        "trait": "Counter Knife",
+        "weight": "60",
+        "occurrence": "17 in 333 editions (5.11 %)"
+      },
+      {
+        "trait": "Empty",
+        "weight": "10",
+        "occurrence": "3 in 333 editions (0.90 %)"
+      },
+      {
+        "trait": "Engaged",
+        "weight": "40",
+        "occurrence": "21 in 333 editions (6.31 %)"
+      },
+      {
+        "trait": "Gun Pink Blue",
+        "weight": "10",
+        "occurrence": "4 in 333 editions (1.20 %)"
+      },
+      {
+        "trait": "Gun",
+        "weight": "100",
+        "occurrence": "29 in 333 editions (8.71 %)"
+      },
+      {
+        "trait": "Katana",
+        "weight": "60",
+        "occurrence": "10 in 333 editions (3.00 %)"
+      },
+      {
+        "trait": "Knuckle",
+        "weight": "100",
+        "occurrence": "34 in 333 editions (10.21 %)"
+      },
+      {
+        "trait": "Married",
+        "weight": "10",
+        "occurrence": "2 in 333 editions (0.60 %)"
+      },
+      {
+        "trait": "Phone Call Boris",
+        "weight": "40",
+        "occurrence": "6 in 333 editions (1.80 %)"
+      },
+      {
+        "trait": "Phone Call Chad",
+        "weight": "100",
+        "occurrence": "42 in 333 editions (12.61 %)"
+      },
+      {
+        "trait": "Phone Call Igor",
+        "weight": "10",
+        "occurrence": "1 in 333 editions (0.30 %)"
+      },
+      {
+        "trait": "Phone Call Vlad",
+        "weight": "60",
+        "occurrence": "34 in 333 editions (10.21 %)"
+      },
+      {
+        "trait": "Taser",
+        "weight": "60",
+        "occurrence": "21 in 333 editions (6.31 %)"
+      },
+      {
+        "trait": "Telescopica",
+        "weight": "40",
+        "occurrence": "13 in 333 editions (3.90 %)"
+      },
+      {
+        "trait": "Weed",
+        "weight": "100",
+        "occurrence": "38 in 333 editions (11.41 %)"
+      }
+    ],
+    "Background":[
+      {
+        "trait": "Blue",
+        "weight": "100",
+        "occurrence": "53 in 333 editions (15.92 %)"
+      },
+      {
+        "trait": "Green",
+        "weight": "100",
+        "occurrence": "56 in 333 editions (16.82 %)"
+      },
+      {
+        "trait": "Pink",
+        "weight": "100",
+        "occurrence": "47 in 333 editions (14.11 %)"
+      },
+      {
+        "trait": "Purple",
+        "weight": "100",
+        "occurrence": "35 in 333 editions (10.51 %)"
+      },
+      {
+        "trait": "Red",
+        "weight": "100",
+        "occurrence": "56 in 333 editions (16.82 %)"
+      },
+      {
+        "trait": "Yellow",
+        "weight": "100",
+        "occurrence": "36 in 333 editions (10.81 %)"
+      }
+    ],
+    "Hair":[
+      {
+        "trait": "Headscarf Gold",
+        "weight": "10",
+        "occurrence": "4 in 333 editions (1.20 %)"
+      },
+      {
+        "trait": "Headscarf Green",
+        "weight": "40",
+        "occurrence": "12 in 333 editions (3.60 %)"
+      },
+      {
+        "trait": "Headscarf Red",
+        "weight": "100",
+        "occurrence": "41 in 333 editions (12.31 %)"
+      },
+      {
+        "trait": "Long Blonde",
+        "weight": "100",
+        "occurrence": "36 in 333 editions (10.81 %)"
+      },
+      {
+        "trait": "Long Blue",
+        "weight": "40",
+        "occurrence": "19 in 333 editions (5.71 %)"
+      },
+      {
+        "trait": "Long Red",
+        "weight": "60",
+        "occurrence": "19 in 333 editions (5.71 %)"
+      },
+      {
+        "trait": "Messy Bun Blonde",
+        "weight": "100",
+        "occurrence": "41 in 333 editions (12.31 %)"
+      },
+      {
+        "trait": "Messy Bun Brown",
+        "weight": "100",
+        "occurrence": "40 in 333 editions (12.01 %)"
+      },
+      {
+        "trait": "Messy Bun Red",
+        "weight": "60",
+        "occurrence": "22 in 333 editions (6.61 %)"
+      },
+      {
+        "trait": "Ponytails Pink Blue",
+        "weight": "40",
+        "occurrence": "12 in 333 editions (3.60 %)"
+      },
+      {
+        "trait": "Ponytails Pink",
+        "weight": "100",
+        "occurrence": "37 in 333 editions (11.11 %)"
+      }
+    ],
+    "Radioactive 3":[
+      {
+        "trait": "Golden",
+        "weight": "10",
+        "occurrence": "1 in 333 editions (0.30 %)"
+      },
+      {
+        "trait": "Green",
+        "weight": "60",
+        "occurrence": "3 in 333 editions (0.90 %)"
+      },
+      {
+        "trait": "Pink",
+        "weight": "40",
+        "occurrence": "3 in 333 editions (0.90 %)"
+      }
+    ],
+    "Hairstyle 3":[
+      {
+        "trait": "Messy Bun Blonde",
+        "weight": "100",
+        "occurrence": "1 in 333 editions (0.30 %)"
+      },
+      {
+        "trait": "Messy Bun Brown",
+        "weight": "100",
+        "occurrence": "4 in 333 editions (1.20 %)"
+      },
+      {
+        "trait": "Messy Bun Red",
+        "weight": "60",
+        "occurrence": "2 in 333 editions (0.60 %)"
+      }
+    ],
+    "Radioactive 2":[
+      {
+        "trait": "Golden",
+        "weight": "10",
+        "occurrence": "1 in 333 editions (0.30 %)"
+      },
+      {
+        "trait": "Green",
+        "weight": "60",
+        "occurrence": "1 in 333 editions (0.30 %)"
+      },
+      {
+        "trait": "Pink",
+        "weight": "40",
+        "occurrence": "3 in 333 editions (0.90 %)"
+      }
+    ],
+    "Hairstyle 2":[
+      {
+        "trait": "Ponytails Pink Blue",
+        "weight": "40",
+        "occurrence": "2 in 333 editions (0.60 %)"
+      },
+      {
+        "trait": "Ponytails Pink",
+        "weight": "100",
+        "occurrence": "3 in 333 editions (0.90 %)"
+      }
+    ],
+    "Radioactive 4":[
+      {
+        "trait": "Golden",
+        "weight": "10",
+        "occurrence": "1 in 333 editions (0.30 %)"
+      },
+      {
+        "trait": "Green",
+        "weight": "60",
+        "occurrence": "23 in 333 editions (6.91 %)"
+      },
+      {
+        "trait": "Pink",
+        "weight": "40",
+        "occurrence": "12 in 333 editions (3.60 %)"
+      }
+    ],
+    "Hairstyle 4":[
+      {
+        "trait": "Headscarf Gold",
+        "weight": "10",
+        "occurrence": "3 in 333 editions (0.90 %)"
+      },
+      {
+        "trait": "Headscarf Green",
+        "weight": "40",
+        "occurrence": "8 in 333 editions (2.40 %)"
+      },
+      {
+        "trait": "Headscarf Red",
+        "weight": "100",
+        "occurrence": "25 in 333 editions (7.51 %)"
+      }
+    ]
+
+}
