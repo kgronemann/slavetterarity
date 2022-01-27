@@ -12,20 +12,31 @@
     <div id = "overlay" onclick="hideOL()">
     </div>
     <div id = "header">
-        <form>
-            <label for="view">View Per Page:</label>
-                <select id="view" name="view" value="18" onchange="updateGallery()">
-                <option value="18">18</option>
-                <option value="54">54</option>
-                <option value="126">126</option>
-                <option value="333">333</option>
-                </select>
-                <label for="sort">Sort:</label>
-                <select id="sort" name="sort" value="mint" onchange="updateGallery()">
-                <option value="mint">mint</option>
-                <option value="rarity">rarity</option>
-                </select>
-        </form>
+        <table>
+        <tr>
+            <td>
+                <form>
+                    <label for="view">View Per Page:</label>
+                        <select id="view" name="view" value="18" onchange="updateGallery(1)">
+                        <option value="18">18</option>
+                        <option value="54">54</option>
+                        <option value="126">126</option>
+                        <option value="333">333</option>
+                        </select>
+                        <label for="sort">Sort:</label>
+                        <select id="sort" name="sort" value="mint" onchange="updateGallery(1)">
+                        <option value="mint">mint</option>
+                        <option value="rarity">rarity</option>
+                        </select>
+                </form>
+            </td>
+            <td>
+                <div id = "pbuttons">
+                    
+                </div>
+            </td>
+        </tr>
+        </table>
     </div>
     <div id = "gallery">
     </div>
