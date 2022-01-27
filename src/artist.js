@@ -39,7 +39,7 @@ return input;
 };
 
 view = function (img, x, y){
-        
+    if(!isMobile()){
     let content = document.createElement("div");
     content.className = "viewer"
         /*
@@ -78,6 +78,7 @@ view = function (img, x, y){
     content.appendChild(table);
     ov.appendChild(content).className = "ovdiv";
     ov.style.display = "block";
+    };
 
 };
 hideOL = function(){
