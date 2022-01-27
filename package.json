@@ -2,16 +2,10 @@
   "name": "hi",
   "version": "1.0.0",
   "description": "",
-  "main": "read.js",
-  "scripts": {
-    "meta": "node src/read.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "excel4node": "^1.7.2",
-    "https": "^1.0.0",
-    "png-metadata": "^1.0.2"
+
   }
 }

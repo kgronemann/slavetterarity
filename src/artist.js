@@ -8,7 +8,9 @@ fetch('json/rarity.json')
 */
 const  gallery = document.getElementById("gallery");
 const ov = document.getElementById("overlay");
-let drop = document.getElementById("view");
+const drop = document.getElementById("view");
+const sort = document.getElementById("sort");
+const rarity = [191,9,332,92,303,13,328,329,233,84,70,76,184,265,165,280,118,295,293,5,304,125,148,286,28,315,179,203,249,272,160,8,35,63,251,306,216,237,305,73,90,275,217,297,147,101,74,117,186,19,189,183,206,136,185,200,201,208,29,59,256,259,176,248,327,314,225,15,46,254,149,281,294,80,321,1,98,129,196,268,230,126,319,166,159,207,226,122,11,137,241,150,212,69,111,187,54,302,79,20,250,154,221,96,310,169,114,72,313,51,330,56,77,307,95,278,288,91,215,162,134,40,219,262,232,78,326,213,144,81,127,323,66,322,210,260,264,106,94,194,109,244,284,247,220,239,211,245,3,16,17,290,298,252,300,52,48,331,257,209,58,291,31,236,299,135,235,55,253,285,242,263,283,318,50,164,83,271,67,243,292,270,181,37,192,279,199,276,10,229,145,205,121,103,198,190,132,142,195,289,161,274,119,296,222,140,102,82,57,85,171,324,266,177,41,18,153,325,258,193,228,124,202,188,36,100,156,287,311,44,108,141,110,312,224,255,47,99,45,174,261,60,157,131,240,301,151,25,317,309,178,168,12,7,65,167,112,182,138,163,139,204,133,14,23,34,62,273,32,269,71,246,155,158,43,53,97,282,214,238,152,277,128,316,197,123,227,223,333,113,115,42,231,308,68,320,180,33,267,88,21,86,39,61,105,234,27,49,93,146,22,26,24,30,87,120,64,4,89,173,75,175,38,218,107,130,104,172,6,143,170,2,116]
 
 
 getRarity = function(input){
@@ -87,19 +89,32 @@ makeRows = function(rows, cols) {
     for (c = 0; c < (rows*cols); c++) {
         let cell = document.createElement("div");
         cell.id = `item${c}`;
-        let x = c + 1
+        console.log(c);
+        //indexOf(c) would find mint from rarity
+        
+        if (sort.value == "mint"){
+            var x = c + 1;
+            var y = rarity[c];
+        }else if (sort.value == "rarity"){
+            var y = c + 1;
+            var x = rarity.indexOf(y)+1;
+        };
         if (x<148){corrected = x + 1;}
         else if (x >= 148 && x < 332){corrected = x + 2;}
         else if (x == 332){corrected = 1;}
         else if (x == 333){corrected = 149;}
-      cell.innerHTML = (`<img 
-      src = \"thumbs/thumb${corrected}.png\" 
-      alt=\"${corrected}.png\" 
-      id = \"img${c}\" 
-      class = \"full\"
-      onclick=\"view(this)\"
-      >`);
-      gallery.appendChild(cell).className = "grid-item";
+        cell.innerHTML = (`<div height=\"85%\"><img 
+        src = \"thumbs/thumb${corrected}.png\" 
+        alt=\"${corrected}.png\" 
+        id = \"img${c}\" 
+        class = \"full\"
+        onclick=\"view(this)\"
+        ></div>`);
+        cell.innerHTML += (`<div height=\"15%\"><p>
+        Mint# ${x} </br>
+        Rarity# ${y}
+        </p></div>`);
+        gallery.appendChild(cell).className = "grid-item";
     };
   };
   updateGallery = function(){
