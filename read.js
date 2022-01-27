@@ -14,7 +14,7 @@ const readline = require("readline");
 //const { excelColor } = require('excel4node/distribution/lib/types');
 var cli = {};
 cli.getRarity = function(input){
-  var es = png.readFileSync(`images-w-metadata/${input}.png`);
+  var es = png.readFileSync(`images/${input}.png`);
   //split it into chunks
   var elist = png.splitChunk(es);
   //pop the lid
