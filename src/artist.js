@@ -11,8 +11,9 @@ const ov = document.getElementById("overlay");
 
 getRarity = function(input){
     //I'm gonna have to get this live to test it out right
-    console.log(input);
-    fetch(`images/${input}`,{
+    console.log(input.src);
+    //
+    fetch(`images/${input.alt}`,{
         method: 'GET'
     })
     .then(response => response.blob())
@@ -39,19 +40,40 @@ or somehow I will have to figure how to decode the images up front
 return input;
 }
 
-view = function (src){
-    ov.style.display = "block";
+view = function (img){
+        
     let content = document.createElement("div");
-    /*
-    let blob = getRarity(src);
-    console.log(blob);
-    */
-    content.innerHTML = (`<p>hi</p>`);
+        /*
+        let src = img.src
+        let blob = getRarity(img);
+        console.log(blob);
+        */
+    let table = document.createElement("table");
+    table.className = "viewer";
+    
+    let tr = document.createElement("tr");
+    
+    let imgcolumn = document.createElement("td");
+
+    let descolumn = document.createElement("td");
+
+    let pic = document.createElement("img");
+    pic.src = "images/"+img.alt;
+
+    pic.className="full";
+    imgcolumn.appendChild(pic);
+    descolumn.innerHTML = (`<p>hi</p>`);
+    tr.appendChild(imgcolumn);
+    tr.appendChild(descolumn);
+    table.appendChild(tr);
+    content.appendChild(table);
     ov.appendChild(content).className = "ovdiv";
+    ov.style.display = "block";
 
 }
 hideOL = function(){
     ov.style.display = "none";
+    ov.innerHTML = "";
 }
 
 makeRows = function(rows, cols) {
@@ -67,11 +89,11 @@ makeRows = function(rows, cols) {
         else if (x == 332){corrected = 1;}
         else if (x == 333){corrected = 149;}
       cell.innerHTML = (`<img 
-      src = \"images/${corrected}.png\" 
+      src = \"thumbs/thumb${corrected}.png\" 
       alt=\"${corrected}.png\" 
       id = \"img${c}\" 
       class = \"full\"
-      onclick=\"view(this.alt)\"
+      onclick=\"view(this)\"
       >`);
       gallery.appendChild(cell).className = "grid-item";
     };
