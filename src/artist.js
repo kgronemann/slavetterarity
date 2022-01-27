@@ -8,6 +8,8 @@ fetch('json/rarity.json')
 */
 const  gallery = document.getElementById("gallery");
 const ov = document.getElementById("overlay");
+let drop = document.getElementById("view");
+
 
 getRarity = function(input){
     //I'm gonna have to get this live to test it out right
@@ -54,8 +56,10 @@ view = function (img){
     let tr = document.createElement("tr");
     
     let imgcolumn = document.createElement("td");
+    imgcolumn.className = "img";
 
     let descolumn = document.createElement("td");
+    descolumn.className = "img";
 
     let pic = document.createElement("img");
     pic.src = "images/"+img.alt;
@@ -80,7 +84,7 @@ makeRows = function(rows, cols) {
     gallery.style.setProperty('--grid-rows', rows);
     gallery.style.setProperty('--grid-cols', cols);
     var corrected = 0;
-    for (c = 0; c < (333); c++) {
+    for (c = 0; c < (rows*cols); c++) {
         let cell = document.createElement("div");
         cell.id = `item${c}`;
         let x = c + 1
@@ -98,8 +102,13 @@ makeRows = function(rows, cols) {
       gallery.appendChild(cell).className = "grid-item";
     };
   };
-  //going to find a better way to do this but it's what i have right now
-  makeRows(56, 6);
+  updateGallery = function(){
+    gallery.innerHTML = "";
+    makeRows(parseInt(drop.value)/9, 9);
+  }
+ 
+  updateGallery();
+  
 
 
 

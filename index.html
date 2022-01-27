@@ -10,11 +10,19 @@
 
 <body>
     <div id = "overlay" onclick="hideOL()">
-
+    </div>
+    <div id = "header">
+        <form>
+            <label for="view">View Per Page:</label>
+                <select id="view" name="view" value="18" onchange="updateGallery()">
+                <option value="18">18</option>
+                <option value="54">54</option>
+                <option value="126">126</option>
+                <option value="333">333</option>
+                </select>
+        </form>
     </div>
     <div id = "gallery">
-
-
     </div>
 </body>
 <script src = "src/artist.js"></script>

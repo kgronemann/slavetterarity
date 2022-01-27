@@ -5,6 +5,9 @@ img.full{
 table.viewer{
 
 }
+td.img{
+  width:80%
+}
 #overlay {
     position: fixed; /* Sit on top of the page content */
     display: none; /* Hidden by default */
@@ -22,7 +25,7 @@ table.viewer{
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 50px;
+    font-size: 2em;
     color: white;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
@@ -34,7 +37,7 @@ table.viewer{
   
 #gallery {
 display: grid;
-gap: 1em;
+gap: 5px;
 grid-template-rows: repeat(var(--grid-rows), 1fr);
 grid-template-columns: repeat(var(--grid-cols), 1fr);
 }
