@@ -62,9 +62,14 @@ view = function (img, x, y){
     pic.src = "images/"+img.alt;
 
     pic.className="disp";
-    imgcolumn.appendChild(pic);
-    descolumn.innerHTML = (`<div class = \"galdesc\"><p class = \"gallery\">
-                        Mint#: ${x}
+    let d = document.createElement("div");
+
+    d.className="imgholder";
+    d.appendChild(pic);
+
+    imgcolumn.appendChild(d);
+    descolumn.innerHTML = (`<div class=\"txtholder\"<p class = \"gallery\">
+                        Mint#: ${x}</br>
                         Rarity#: ${y}
                         </p></div>`);
     tr.appendChild(imgcolumn);
